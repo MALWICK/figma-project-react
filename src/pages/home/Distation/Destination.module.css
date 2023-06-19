@@ -1,0 +1,133 @@
+.destination__maincontainer {
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.destination__paragraph {
+  padding-top: 3%;
+  font-family: Lora;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.005em;
+  /* text-align: left; */
+  color: #c7923e;
+}
+
+.destination__title {
+  width: 608px;
+  height: 116px;
+  font-family: Lora;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.destination__padgination {
+  width: 99%;
+  height: 18vh;
+  /* background-color: rgb(144, 39, 39); */
+  margin: 40px 2px 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3%;
+}
+
+.padgination__container {
+  width: 10%;
+  height: 10vh;
+   /* background-color: #c7923e; */  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left__padgination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 56px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  background: #f5f5f5;
+  border: 2px solid #c7923e;
+}
+
+.right__padgination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 56px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  background: #c7923e;
+}
+
+.destination__cards {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  background-color: aqua;  */
+}
+
+.destination__card_cointainer {
+  width: 100%;
+  height: 60vh;
+padding: 2% 2.4% 1%;
+gap: 1%;
+   /* background-color: rgb(40, 164, 24);  */
+} 
+
+.image__container img {
+  text-align: center;
+  height: 300px;
+  width: 350px;
+  background-size: cover;
+  left: 100px;
+  border-radius: 50px;
+  /* background-color: #c7923e; */
+}
+
+.destination__card_title {
+  height: 47px;
+  width: 109px;
+  left: 78px;
+  top: 3262px;
+  border-radius: nullpx;
+  font-family: Lora;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  padding-left: 2px;
+}
+
+.destination__cards_description {
+  height: 60px;
+  width: 278px;
+  left: 78px;
+  top: 3325px;
+  border-radius: nullpx;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #9A9AB0;
+  text-align: left;
+  padding-left: 2px;
+}

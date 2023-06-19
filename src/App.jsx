@@ -1,11 +1,13 @@
 import './App.css';
-import StickyBar from './component/stickybar/Stickybar';
-import Detailnavbar from './component/detailnavbar/Detailnavbar';
+import Home from './pages/home/Home';
+
 
 function App() {
-  return(
-  <div className="container">
-  </div>)
+  return (
+    <div className="container">
+      <Home />
+    </div>
+  );
 }
 
 export default App;
