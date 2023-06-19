@@ -1,6 +1,10 @@
 .package__container {
   width: 100%;
   height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -11,7 +15,6 @@
   border-radius: nullpx;
   text-align: center;
   padding: 46px 1px 2px;
-  margin: auto;
 }
 
 .titles__paragraph p {
@@ -21,6 +24,7 @@
   line-height: 38px;
   letter-spacing: 0.005em;
   color: #c7923e;
+  margin-bottom: 4%;
 }
 
 .titles__tittle1 {
@@ -48,17 +52,19 @@
   justify-content: center;
   align-items: center;
   gap: 2%;
+  margin-top: 2%;
 }
 
 .displaycard {
-  height: 540px;
+  height: 560px;
   width: 360px;
   left: 105px;
   top: 1282px;
   margin-bottom: 4%;
   border: 1px solid #e1e1e1;
   /* background-color: red; */
-  border-radius: [object Object]px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .image__holder {
@@ -84,23 +90,26 @@
   line-height: 29px;
   letter-spacing: 0.005em;
   text-align: left;
+  margin-bottom: 3%;
 }
 
 .description__text {
   height: 100px;
   width: 256px;
-  left: 486px;
-  top: 1666px;
+  text-align: left;
+  line-height: 1.7rem;
   border-radius: nullpx;
 }
 
 .description__text p {
-  font-family: Mulish;
-  font-size: 16px;
+  font-family: 'Mulish';
+  font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 125%;
+  /* or 20px */
   letter-spacing: 0.005em;
-  text-align: left;
+  color: #000000;
 }
 
 .textcontainer {
@@ -110,17 +119,18 @@
 
 .holderbtn button {
   height: 56px;
-  width: 117.25px;
+  width: 130.25px;
   left: 119px;
   top: 1778px;
   color: #fff;
   display: flex;
   border-radius: 8px;
   padding: 18px 24px 18px 24px;
+  font-size: 16px;
 }
 
 .holderbtn {
   width: 100%;
   padding-left: 3%;
-  background-color: rgb(160, 39, 39); 
+  /* background-color: rgb(160, 39, 39); */
 }

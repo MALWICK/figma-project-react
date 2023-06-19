@@ -26,10 +26,10 @@ function Booking() {
                         </div>
                     </div>
                 </div>
-                <div className={stylesbook.package}>
-                    <div className={stylesbook.package__container}>
-                        <p className={stylesbook.package_text}>Package</p>
-                        <div className={stylesbook.specific__package}>
+                <div className={stylesbook.date}>
+                    <div className={stylesbook.date__details}>
+                        <p className={stylesbook.date_text}>Package</p>
+                        <div className={stylesbook.specific__date}>
                             <p>All</p><i className="fa-solid fa-angle-down"/>
                         </div>
                     </div>
