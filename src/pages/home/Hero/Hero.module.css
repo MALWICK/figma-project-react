@@ -1,0 +1,111 @@
+.hero {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.9)),
+    url('../../../assets/images/Image\ Placeholder1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  height: 722px;
+}
+
+.hero__maincontainer {
+  /* background-color: rgb(205, 50, 109); */
+  min-height: 400px;
+  width: 50%;
+  padding: 130px 200px;
+  color: #fff;
+  left: 0px;
+  top: 165px;
+  border-radius: 0px;
+  letter-spacing: 2px;
+  /*  
+  width: 1280px;
+   */
+}
+
+.hero__container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  /* background-color: green; */
+}
+
+.hero__container_heading {
+  height: 148px;
+  width: 669px;
+  left: 136px;
+  top: 362px;
+  border-radius: nullpx;
+}
+
+.hero__heading {
+  font-family: serif;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: 0.003em;
+  text-align: left;
+  color: white;
+}
+
+.hero__container_paragraph {
+  height: 25px;
+  width: 654px;
+  left: 136px;
+  top: 527px;
+  border-radius: nullpx;
+  margin: 2%;
+}
+
+.hero__paragraph {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+}
+
+.padgination {
+  height: 56px;
+  /* min-width: 1070px; */
+  width: 100%;
+  /* background-color: black; */
+  border-radius: 0px;
+  /* border: 6px solid #fff */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.padgination__container {
+  width: 100%;
+  /* background-color: orangered; */
+  border-radius: 0px;
+  padding: 3%;
+  /* gap: 250px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.padgination__left,
+.padgination__right {
+  color: white; /* 
+  background-color: rgb(129, 127, 127); */
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+.padgination__left i {
+  font-size: 2rem;
+}
+
+.padgination__right i {
+  font-size: 2rem;
+}

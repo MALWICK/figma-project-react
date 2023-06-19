@@ -6,7 +6,7 @@
 
 .navbar {
   background-color: #304F47;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 55.37px;
   display: flex;
